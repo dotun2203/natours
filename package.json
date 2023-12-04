@@ -4,8 +4,8 @@
   "description": "learning expressjs and mongodb",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "start:prod": "set NODE_ENV=production&&nodemon server.js",
+    "start": "node server.js",
+    "start:prod": "NODE_ENV=production npm start",
     "debug": "ndb server.js"
   },
   "author": "",
